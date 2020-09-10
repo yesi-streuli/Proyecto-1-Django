@@ -12,8 +12,6 @@ class Habilidades(models.Model):
 
     def __str__(self):
         return str(self.id) + '-' + self.habilidad
-        
-        
 
 #Create your models here.
 
